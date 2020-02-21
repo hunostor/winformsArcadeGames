@@ -44,12 +44,6 @@
             this.picGameBoard.TabIndex = 0;
             this.picGameBoard.TabStop = false;
             // 
-            // timer
-            // 
-            this.timer.Enabled = true;
-            this.timer.Interval = 500;
-            this.timer.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // imgList
             // 
             this.imgList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgList.ImageStream")));
